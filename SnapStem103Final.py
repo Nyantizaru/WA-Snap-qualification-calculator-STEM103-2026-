@@ -96,7 +96,7 @@ def calculator():
     # federal calculator
     def fed_calc():
         if fed.people <= 8:
-            if fed.income <= SNAP_REQ[snap.people - 1]:
+            if fed.income <= FEDERAL_REQ[fed.people - 1]:
                 return True
             else:
                 return False
